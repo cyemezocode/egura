@@ -1,2 +1,0 @@
-# egura
-me and didier
