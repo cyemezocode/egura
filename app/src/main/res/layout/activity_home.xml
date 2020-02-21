@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:background="@drawable/bg"
+        android:id="@+id/tophead">
+
+        <RelativeLayout
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50px"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="50px"
+            android:layout_marginBottom="50px"
+            android:background="@drawable/bell" />
+
+        <RelativeLayout
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:background="@drawable/vector"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50px"
+            android:layout_marginRight="50px"
+            />
+        <RelativeLayout
+            android:layout_width="400px"
+            android:layout_height="35dp"
+            android:background="@drawable/logo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/topbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tophead"
+        android:layout_marginTop="20dp"
+        android:padding="20px"
+        android:background="@drawable/topbanner"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300px"
+        android:layout_height="200px"
+        android:background="@drawable/catbg"
+        android:layout_below="@+id/topbanner"
+        android:layout_margin="20px">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/catimage"
+            android:id="@+id/catimg"
+            ></LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/catimg">
+            <TextView
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:padding="5px"
+                android:paddingLeft="10dp"
+                android:text="Product name"
+                android:id="@+id/proname"
+                android:textSize="15px"></TextView>
+            <TextView
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:padding="5px"
+                android:paddingLeft="10dp"
+                android:layout_below="@+id/proname"
+                android:text="1,000 Rfw"
+                android:id="@+id/price"
+                android:textSize="15px"></TextView>
+
+            <Button
+                android:layout_width="15px"
+                android:layout_height="12px"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5px"
+                android:id="@+id/wishicon"
+                android:background="@drawable/wishico" />
+            <Button
+                android:layout_width="15px"
+                android:layout_height="12px"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="10px"
+                android:layout_below="@+id/wishicon"
+                android:background="@drawable/catico" />
+
+        </RelativeLayout>
+    </RelativeLayout><RelativeLayout
+    android:layout_width="300px"
+    android:layout_height="200px"
+    android:background="@drawable/catbg"
+    android:layout_below="@+id/topbanner"
+    android:layout_margin="20px">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/catimage"
+        android:id="@+id/catimg"
+        ></LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/catimg">
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:padding="5px"
+            android:paddingLeft="10dp"
+            android:text="Product name"
+            android:id="@+id/proname"
+            android:textSize="15px"></TextView>
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:padding="5px"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/proname"
+            android:text="1,000 Rfw"
+            android:id="@+id/price"
+            android:textSize="15px"></TextView>
+
+        <Button
+            android:layout_width="15px"
+            android:layout_height="12px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="5px"
+            android:id="@+id/wishicon"
+            android:background="@drawable/wishico" />
+        <Button
+            android:layout_width="15px"
+            android:layout_height="12px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="10px"
+            android:layout_below="@+id/wishicon"
+            android:background="@drawable/catico" />
+
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>
